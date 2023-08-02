@@ -106,5 +106,5 @@ white-space: nowrap;
 }.eventvenue{}
 .eventcity{
 	white-space: nowrap;
-
 }
+.mobileonly{display:none;}
