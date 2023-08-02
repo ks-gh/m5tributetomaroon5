@@ -110,6 +110,7 @@ white-space: nowrap;
   background-repeat: no-repeat;
   background-color: #000;
   background-size: cover;
+  overflow-x: hidden;
 
 }
 

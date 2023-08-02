@@ -75,7 +75,7 @@ a:active {
 {
   text-align: left;
   background-color: #FFF;
-  width:95%;
+  width:90%;
   display: inline-block;
 }
 
@@ -97,9 +97,18 @@ tr.table-subtitle td {
 }
 
 .bandpic {
-
+  height:700px;
+  max-height:35%;
   background-image: url("bandpic_mobile.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: cover;
+  overflow-x: hidden;
 }
+
+
+
 .eventvenue{display:none;}
 .eventcity{display:none;}
 .mobileonly{display:inline;}
