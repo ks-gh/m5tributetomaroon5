@@ -22,13 +22,14 @@ table {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 100;
-	line-height: 24px;
 	margin-bottom: 16px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 16px;
-	width: 50%;
+	width: 75%;
 	text-align: left;
+}
+tr>td{  padding-bottom: 1em;
 }
 body, html{
     margin:0;
@@ -88,7 +89,20 @@ a:active {
     vertical-align: middle;
 }
 
-.table-subtitle {color: #999999;}
+tr.table-subtitle td {
+  color: #999999;
+  padding-top: 12px; 
+  padding-bottom:12px;
+}
+
+.eventdate
+{
+white-space: nowrap;
+}
+
 .bandpic {width:70%;}
 .eventvenue{}
-.eventcity{}
+.eventcity{
+	white-space: nowrap;
+
+}

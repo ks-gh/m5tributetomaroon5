@@ -1,6 +1,6 @@
 html
 {
-   font-size: 2;
+   font-size: 1.5em;
    color: #000 !important;
    font-family: Futura,sans-serif !important;
    background-color: #FFF;
@@ -10,24 +10,23 @@ html
 
 h1 
 {
-	font-size: 3em;
+	font-size: 2em;
 }
 h2
 {
-	font-size: 2em;
+	font-size: 1em;
 }
 table {
 	display: inline-table;
 	box-sizing: border-box;
-	font-size: 32px;
+	font-size: 1em;
 	font-style: normal;
 	font-weight: 100;
-	line-height: 24px;
 	margin-bottom: 16px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 16px;
-	width: 100%;
+	width: 95%;
 	text-align: left;
 }
 body, html{
@@ -88,7 +87,11 @@ a:active {
     vertical-align: middle;
 }
 
-.table-subtitle {color: #999999;}
+tr.table-subtitle td {
+  color: #999999;
+  padding-top: 12px; 
+  padding-bottom:12px;
+}
 
 .bandpic {width:100%;}
 .eventvenue{display:none;}
