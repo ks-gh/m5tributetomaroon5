@@ -100,8 +100,10 @@ tr.table-subtitle td {
 white-space: nowrap;
 }
 
-.bandpic {width:70%;}
-.eventvenue{}
+.bandpic {
+  width:70%;
+  background-image: url("bandpic.jpg");
+}.eventvenue{}
 .eventcity{
 	white-space: nowrap;
 

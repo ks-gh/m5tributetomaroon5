@@ -93,6 +93,9 @@ tr.table-subtitle td {
   padding-bottom:12px;
 }
 
-.bandpic {width:100%;}
+.bandpic {
+  width:100%;
+  background-image: url("bandpic_mobile.jpeg");
+}
 .eventvenue{display:none;}
 .eventcity{display:none;}
