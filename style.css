@@ -1,11 +1,10 @@
 html
 {
-   font-size: 1em;
+   font-size: 22px;
    color: #000 !important;
    font-family: Futura,sans-serif !important;
    background-color: #FFF;
    font-weight: 100;
-
 }
 
 h1 
@@ -18,9 +17,7 @@ h2
 }
 table {
 	display: inline-table;
-	box-sizing: border-box;
-	font-size: 16px;
-	font-style: normal;
+
 	font-weight: 100;
 	margin-bottom: 16px;
 	margin-left: 0px;
@@ -74,9 +71,10 @@ a:active {
 
 .sect
 {
-	text-align: center;
+	text-align: left;
 	background-color: #FFF;
-
+	width:80%;
+  display: inline-block;
 }
 
 .em-png {
@@ -108,3 +106,4 @@ white-space: nowrap;
 	white-space: nowrap;
 }
 .mobileonly{display:none;}
+.topelement{text-align:center;}

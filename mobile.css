@@ -1,6 +1,6 @@
 html
 {
-   font-size: 1.75em;
+   font-size: 3em;
    color: #000 !important;
    font-family: Futura,sans-serif !important;
    background-color: #FFF;
@@ -14,7 +14,7 @@ h1
 }
 h2
 {
-	font-size: 1em;
+	font-size: 1.5em;
 }
 table {
 	display: inline-table;
@@ -72,10 +72,12 @@ a:active {
 
 .sect
 {
-	text-align: center;
-	background-color: #FFF;
-
+  text-align: left;
+  background-color: #FFF;
+  width:95%;
+  display: inline-block;
 }
+
 
 .em-png {
     height: 1em;
