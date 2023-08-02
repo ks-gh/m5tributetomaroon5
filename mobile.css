@@ -10,11 +10,12 @@ html
 
 h1 
 {
-	font-size: 2em;
+	font-size: 2em;  font-weight:100;
+
 }
 h2
 {
-	font-size: 1.5em;
+	font-size: 1.5em;  font-weight:100;
 }
 table {
 	display: inline-table;
@@ -96,7 +97,7 @@ tr.table-subtitle td {
 }
 
 .bandpic {
-  width:100%;
+
   background-image: url("bandpic_mobile.jpeg");
 }
 .eventvenue{display:none;}
