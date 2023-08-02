@@ -1,6 +1,6 @@
 html
 {
-   font-size: 1em;
+   font-size: 2;
    color: #000 !important;
    font-family: Futura,sans-serif !important;
    background-color: #FFF;
@@ -10,16 +10,16 @@ html
 
 h1 
 {
-	font-size: 2em;
+	font-size: 3em;
 }
 h2
 {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 table {
 	display: inline-table;
 	box-sizing: border-box;
-	font-size: 16px;
+	font-size: 32px;
 	font-style: normal;
 	font-weight: 100;
 	line-height: 24px;
