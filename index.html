@@ -11,6 +11,9 @@ html
    font-size: 1em;
    color: #000 !important;
    font-family: Futura,sans-serif !important;
+   background-color: #FFF;
+   font-weight: 100;
+
 }
 
 h1 
@@ -24,22 +27,63 @@ h2
 table {
 	display: inline-table;
 	box-sizing: border-box;
-	color: rgb(0, 0, 0);
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 100;
 	line-height: 24px;
 	margin-bottom: 16px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 16px;
-	width: 30%;
+	width: 50%;
 	text-align: left;
 }
+body, html{
+    margin:0;
+    padding:0;
+}
+body
+{
+	text-align:center;
+}
 
-div
+a:link {
+  color: #0000FB; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0000FB;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000FB;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0000FB;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.pic-div
 {
 	text-align: center;
+	background-color: #000;
+    width: 100%;
+
+}
+
+.sect
+{
+	text-align: center;
+	background-color: #FFF;
+
 }
 
 .em-png {
@@ -51,31 +95,88 @@ div
     display: inline-block;
     vertical-align: middle;
 }
+
+.table-subtitle {color: #999999;}
+
 </style>
 
 
 </head>
 <body>
-<div>
+<div class="pic-div">
 <picture>
-  <source media="(min-width:465px; max-width:800px;)" srcset="bandpic.jpg">
-  <img src="bandpic.jpg" alt="M5 band live in concert" style="width:50%;">
+  <source srcset="bandpic.jpg">
+  <img src="bandpic.jpg" alt="M5 band live in concert" style="width:80%;">
 </picture><p/>
+</div>
 
+<div class="body">
 <h1>M5: tribute to Maroon 5</h1>
 
 M5: Tribute to Maroon 5 is from Seattle, Washington. The band plays the top Maroon 5 hits such as Sugar, This Love, Moves Like Jagger and more!<p/>
-<h2>Follow us</h2>
-<a href="https://www.facebook.com/Maroon5tributeSeattle"><img class="em-png" src="fb.png"/>Maroon5tributeSeattle</a>&emsp;
-<a href="https://www.youtube.com/@m5atributetomaroon583"><img class="em-png" src="yt.png"/>m5atributetomaroon583</a>&emsp;
-<a href="https://www.instagram.com/m5tributetomaroon5/"><img class="em-png" src="instagram.png"/>m5tributetomaroon5</a> 
 
 <h2>Shows</h2>
 
 <table>
-	<thead><tr><th>Date</th><th>Event</th></tr></thead>
-	<tr><td>9/1/2023</td><td><a href="https://borealisonaurora.com/event/m5-poker-face/">Aurora Borealis (with Poker Face)</a></td></tr>
+	<thead><tr><th>Date</th><th>Event</th><th>Venue</th><th>City</th></tr></thead>
+	<tr class="table-subtitle">
+		<td>Upcoming</td>
+	</tr>
+	<tr>
+		<td>Fri, Sep 1, 2023</td>
+		<td><a href="https://borealisonaurora.com/event/m5-poker-face/">M5 + Poker Face</a></td>
+		<td>Aurora Borealis</a></td>
+		<td>Shoreline, WA</td></tr>
+	<tr class="table-subtitle">
+		<td>Past</td>
+	</tr>
+	<tr>
+		<td>Fri, Jul 28, 2023</td>
+		<td>M5: Tribute to Maroon 5 @ the Muckleshoot Casino</td>
+		<td>Muckleshoot Casino Resort</a></td>
+		<td>Auburn, WA</td></tr>
+	<tr>
+		<td>Fri, Jul 14, 2023</td>
+		<td>M5: Tribute to Maroon 5 @ the Tulalip Casino</td>
+		<td>Tulalip Casino</td>
+		<td>Marysville, WA</td></tr>
+	<tr>
+		<td>Sat, Jan 21, 2023</td>
+		<td>New Sensation [INXS] & M5 [Maroon 5] Tributes at Aurora Borealis</td>
+		<td>Aurora Borealis (with New Sensation INXS tribute)</td>
+		<td>Shoreline, WA</td></tr>
+	<tr>
+		<td>Thu, Nov 3, 2022</td>
+		<td>M5 a Tribute to Maroon 5</td>
+		<td>Quil Ceda Creek Casino (QCC)</td>
+		<td>Marysville, WA</td></tr>
+	<tr>
+		<td>Thu, May 26, 2022 </td>
+		<td>M5 a Tribute to Maroon 5</td>
+		<td>Quil Ceda Creek Casino (QCC)</a></td>
+		<td>Marysville, WA</td></tr>
+	<tr>
+		<td>Sat, Mar 12, 2022</td>
+		<td>M5 - a tribute to Maroon 5 with special guest GnX at the Muckleshoot Casino</td>
+		<td>Muckeshoot Casino Resort</td>
+		<td>Auburn, WA</td></tr>
+	<tr>
+		<td>Fri, Feb 4, 2022</td>
+		<td>Mysterious Ways and M5 at The Lime!</td>
+		<td>The Lime</td>
+		<td>Kirkland, WA</td></tr>
+	<tr>
+		<td>Fri, Jan 7, 2022</td>
+		<td>M5 A Tribute to Maroon 5</td>
+		<td>Quil Ceda Creek Casino (QCC)</td>
+		<td>Marysville, WA</td></tr>
 </table>
-</div>
+
+
+<footer><h2>Follow us</h2>
+<a href="https://www.facebook.com/Maroon5tributeSeattle"><img class="em-png" src="fb.png"/></a> <a href="https://www.facebook.com/Maroon5tributeSeattle">Maroon5tributeSeattle</a>&emsp;
+<a href="https://www.youtube.com/@m5atributetomaroon583"><img class="em-png" src="yt.png"/></a> <a href="https://www.facebook.com/Maroon5tributeSeattle">m5atributetomaroon583</a>&emsp;
+<a href="https://www.instagram.com/m5tributetomaroon5/"><img class="em-png" src="instagram.png"/></a> <a href="https://www.facebook.com/Maroon5tributeSeattle">m5tributetomaroon5</a> <p>
+</div></footer>
 </body>
 </html>
