@@ -111,7 +111,6 @@ white-space: nowrap;
   background-color: #000;
   background-size: cover;
   overflow-x: hidden;
-
 }
 
 
@@ -121,3 +120,15 @@ white-space: nowrap;
 }
 .mobileonly{display:none;}
 .topelement{text-align:center;}
+
+input{
+  padding:5px;
+  font-size:16px;
+  font-family:Futura,sans-serif;    
+}
+button{
+  padding:5px;
+  font-size:16px;
+  font-family:Futura,sans-serif;    
+}
+
